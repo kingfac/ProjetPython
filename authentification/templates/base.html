@@ -3,6 +3,26 @@
     <head>
         <title>More life</title>
         <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            input[type="text"]{
+                border : 1px solid #CCCCCC;
+                padding: 5px;
+                font-size: 14px;
+                margin: 20px;
+            }
+            input[type="password"] {
+                border : 1px solid #CCCCCC;
+                padding: 5px;
+                font-size: 14px;
+                position: relative;
+                left: 20px;
+            }
+            button[type="submit"]{
+                position:relative;
+                width:220px;
+                left :20px
+            }
+        </style>
     </head>
     <body>
         {% block content %}{% endblock content %}
